@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "classes": [
+    "Abyssinian",
+    "Bengal",
+    "Egyptian Mau",
+    "Birman",
+    "Ragdoll",
+    "American Pit Bull Terrier",
+    "Staffordshire Bull Terrier",
+    "Beagle",
+    "Basset Hound",
+    "English Cocker Spaniel"
+  ],
+  "split": {
+    "train": 1381,
+    "val": 296,
+    "test": 296
+  },
+  "batch_size": 32,
+  "optimizer": "AdamW(weight_decay=1e-2)",
+  "max_epochs": 40,
+  "patience": 5,
+  "device": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130"
+}

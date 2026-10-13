@@ -1,0 +1,41 @@
+{
+  "mcnemar_B2_vs_B3": {
+    "b2_right_b3_wrong": 13,
+    "b2_wrong_b3_right": 14,
+    "p_value": 1.0
+  },
+  "failure_model": "B5_efficientnet_b0",
+  "n_wrong": 28,
+  "top_confusions": [
+    [
+      8,
+      "American Pit Bull Terrier",
+      "Staffordshire Bull Terrier"
+    ],
+    [
+      6,
+      "Ragdoll",
+      "Birman"
+    ],
+    [
+      3,
+      "Staffordshire Bull Terrier",
+      "American Pit Bull Terrier"
+    ],
+    [
+      3,
+      "Egyptian Mau",
+      "Bengal"
+    ],
+    [
+      3,
+      "Bengal",
+      "Egyptian Mau"
+    ],
+    [
+      2,
+      "Abyssinian",
+      "Bengal"
+    ]
+  ]
+}
